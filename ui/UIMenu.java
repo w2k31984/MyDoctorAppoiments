@@ -1,6 +1,9 @@
 package ui;
 import java.util.Scanner;
 public class UIMenu {
+   //showMenu();
+   
+
   //Variable tipo estatica
   public static String[] MONTHS = { 
     "enero","febrero","marzo", "abril","mayo", "junio","jUlio","agosto","septiembre","octubre","noviembre","diciembre"

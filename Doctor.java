@@ -8,15 +8,23 @@ public class Doctor {
   String name;
   String speciality;
 
-  Doctor() {
+   /*public Doctor() {
     System.out.println("Construyendo el Objeto Doctor");
     id++;
   }
+  public  Doctor() {
+    this.name = "Nombre por defecto";
+    this.speciality = "Especialidad por defecto";
+  }*/
 
-  Doctor(String name) {
+  public  Doctor(String name,String speciality) {
     System.out.println("El nombre del Doctor asignado es: " + name);
+    id++;
+    this.name = name;
+    this.speciality = speciality;
   }
-
+    
+   
   // Comportamientos
   public void showName() {
     System.out.println(name);

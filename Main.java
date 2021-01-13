@@ -21,7 +21,11 @@ public class Main {
     //Se visualiza el menu al usuario.
     //UIMenu.showMenu();
     showMenu();
-   }
+    Doctor myDoctor = new Doctor("Anahi Salgado","Forense Doctor");
+    System.out.println(myDoctor.name);
+    System.out.println(myDoctor.speciality);
+
+     }
   }
 
   
